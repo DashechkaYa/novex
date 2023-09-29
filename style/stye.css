@@ -1,0 +1,155 @@
+/* font-family: 'Arimo', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  /* max-width: 1366px; */
+  padding-left: 15.3rem;
+  padding-right: 15.3rem;
+  /* margin: 0 auto; */
+}
+
+.background__top {
+  min-height: 100vh;
+  background-image: url(../img/Landing\ page\ [1366]\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.header {
+  padding-top: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 10.1rem;
+}
+
+.logo {
+  width: 166.667px;
+  height: 30px;
+  display: inline-block;
+}
+
+.logo__item {
+  width: inherit;
+  height: inherit;
+}
+
+/* .navbar {
+} */
+
+.navbar__list {
+  display: flex;
+  gap: 4.7rem;
+}
+
+.navbar__item {
+  color: #292929;
+  font-family: "Arimo", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .main {
+} */
+
+.title {
+  color: #29323f;
+  font-family: "Saira", sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: left;
+  margin-bottom: 3rem;
+  max-width: 432px;
+}
+
+.text {
+  color: #6e6e6e;
+  font-family: "Arimo" sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: left;
+  margin-bottom: 4rem;
+  max-width: 432px;
+}
+
+.form {
+  max-width: 432px;
+}
+
+.form__input {
+  width: 100%;
+}
+
+.input {
+  height: 52px;
+  border-radius: 100px;
+  border: 1px solid #ececec;
+  background: #ececec;
+  padding: 0 13.5rem 0 2.4rem;
+  color: #292929;
+  font-family: "Arimo", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+input::placeholder {
+  color: #bababa;
+  font-family: "Arimo", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.form__button {
+  position: absolute;
+}
+
+.button {
+  border-radius: 50px;
+  border: 1px solid #292929;
+  background: #292929;
+  height: 48px;
+  padding: 0 2.8rem;
+  color: #fff;
+  text-align: center;
+  font-family: "Arimo", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.arrow {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 153px;
+  bottom: 80px;
+}
+
+.arrow__item {
+  width: inherit;
+  height: inherit;
+}
